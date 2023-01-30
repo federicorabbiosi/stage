@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/index.js"></script>
+  </head>
+  <body onload="initPage()">
+    <div class="header">
+      <h1>Random User</h1>
+    </div>
+    <div class="main">
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td>Nome</td>
+            <td>Nazionalità</td>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Cotent generated from js -->
+        </tbody>
+      </table>
+    </div>
+    <p id="loader">Loading ...</p>
+    <div class="paginator">
+      <span onclick="changePage('-')"><</span>
+      <span id="currentPage" value='1'>1</span>
+      <span onclick="changePage('+')">></span>
+    </div>
+  </body>
+</html>
