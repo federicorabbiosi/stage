@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #f0f0f0;
+}
+
+.main-list {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-list-item {
+  padding: .6em;
+}
+
+.detail-header {
+  display: flex;
+  flex-direction: column;
+}
+.detail-header-title {
+  padding: .8em;
+}
+
+.detail-header img {
+  max-height: 300px;
+  max-width: 100%;
+  align-self: center;
+}
+
+@media screen and (min-width: 400px) {
+  .detail-header {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail-header img {
+    height: 150px;
+  }
+}
+
+.appbar-logo {
+  width: 48px;
+  height: 48px;
+  margin-right: .6em;
+}
